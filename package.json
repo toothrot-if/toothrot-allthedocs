@@ -1,10 +1,11 @@
 {
   "name": "toothrot-allthedocs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Allthedocs theme for toothrot projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify colorizer.js > theme/files/colorizer.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/toothrot-if/toothrot-allthedocs/issues"
   },
-  "homepage": "https://github.com/toothrot-if/toothrot-allthedocs#readme"
+  "homepage": "https://github.com/toothrot-if/toothrot-allthedocs#readme",
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "monaco-loader": "^0.8.2",
+    "toothrot-monarch": "^1.0.0"
+  }
 }
