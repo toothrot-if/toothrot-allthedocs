@@ -452,6 +452,41 @@ pre {
     overflow-x: auto;
 }
 
+.cta-button-container {
+    display: inline-block;
+}
+
+.cta-button {
+    cursor: pointer;
+    position: relative;
+    background: rgb(255,168,76);
+    background: linear-gradient(
+        to bottom, rgba(255, 168, 76, 1) 0%, rgba(255, 123, 13, 1) 100%
+    );
+    border: 1px solid rgb(180, 90, 50);
+    border-left: 1px solid rgb(220, 150, 70);
+    border-top: 1px solid rgb(220, 150, 70);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.cta-button .icon {
+    pointer-events: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.cta-button-alternatives {
+    margin: 0;
+    padding: 3px;
+    font-size: 12px;
+    text-align: left;
+}
+
 
 @media (min-width: 801px) {
     
